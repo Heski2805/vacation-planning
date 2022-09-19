@@ -1,0 +1,9 @@
+READ and WRITE destination with 'Bangkok'
+transportation = 'ship':
+book_ship_ticket
+IF stay_or_debark = 'stay':
+DO wait_until_ship_reach_destination
+ELSE:
+DO debark_at_nearest_city
+DO find_other_transport_to_city
+ENDIF
